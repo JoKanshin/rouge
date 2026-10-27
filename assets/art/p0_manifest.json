@@ -1,0 +1,423 @@
+{
+	"assets": [
+		{
+			"anchor": [
+				16,
+				44
+			],
+			"asset_id": "player/hero_idle",
+			"body_size": [
+				20,
+				28
+			],
+			"canvas": [
+				32,
+				48
+			],
+			"facing": "right",
+			"path": "res://assets/art/player/hero_idle_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "hero_strip_v01",
+			"source_region": [
+				0,
+				200,
+				496,
+				500
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				59,
+				39,
+				313,
+				440
+			]
+		},
+		{
+			"anchor": [
+				16,
+				44
+			],
+			"asset_id": "player/hero_anticipate",
+			"body_size": [
+				23,
+				28
+			],
+			"canvas": [
+				32,
+				48
+			],
+			"facing": "right",
+			"path": "res://assets/art/player/hero_anticipate_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "hero_strip_v01",
+			"source_region": [
+				496,
+				200,
+				496,
+				500
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				43,
+				53,
+				345,
+				426
+			]
+		},
+		{
+			"anchor": [
+				16,
+				44
+			],
+			"asset_id": "player/hero_contact",
+			"body_size": [
+				28,
+				28
+			],
+			"canvas": [
+				32,
+				48
+			],
+			"facing": "right",
+			"path": "res://assets/art/player/hero_contact_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "hero_strip_v01",
+			"source_region": [
+				992,
+				200,
+				496,
+				500
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				16,
+				68,
+				406,
+				411
+			]
+		},
+		{
+			"anchor": [
+				16,
+				44
+			],
+			"asset_id": "player/hero_recover",
+			"body_size": [
+				23,
+				28
+			],
+			"canvas": [
+				32,
+				48
+			],
+			"facing": "right",
+			"path": "res://assets/art/player/hero_recover_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "hero_strip_v01",
+			"source_region": [
+				1488,
+				200,
+				495,
+				500
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				66,
+				57,
+				346,
+				422
+			]
+		},
+		{
+			"anchor": [
+				24,
+				56
+			],
+			"asset_id": "enemies/miner/idle",
+			"body_size": [
+				39,
+				28
+			],
+			"canvas": [
+				64,
+				64
+			],
+			"facing": "right",
+			"path": "res://assets/art/enemies/miner/idle_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "miner_strip_v01",
+			"source_region": [
+				180,
+				340,
+				720,
+				525
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				29,
+				21,
+				677,
+				497
+			]
+		},
+		{
+			"anchor": [
+				24,
+				56
+			],
+			"asset_id": "enemies/miner/windup",
+			"body_size": [
+				32,
+				43
+			],
+			"canvas": [
+				64,
+				64
+			],
+			"facing": "right",
+			"path": "res://assets/art/enemies/miner/windup_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "miner_strip_v01",
+			"source_region": [
+				1020,
+				90,
+				620,
+				775
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				33,
+				22,
+				555,
+				746
+			]
+		},
+		{
+			"anchor": [
+				32,
+				36
+			],
+			"asset_id": "enemies/bat/spread",
+			"body_size": [
+				46,
+				22
+			],
+			"canvas": [
+				64,
+				48
+			],
+			"facing": "front",
+			"path": "res://assets/art/enemies/bat/spread_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "bat_strip_v02",
+			"source_region": [
+				80,
+				210,
+				1180,
+				355
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				15,
+				25,
+				1149,
+				330
+			]
+		},
+		{
+			"anchor": [
+				32,
+				36
+			],
+			"asset_id": "enemies/bat/fold",
+			"body_size": [
+				16,
+				22
+			],
+			"canvas": [
+				64,
+				48
+			],
+			"facing": "front",
+			"path": "res://assets/art/enemies/bat/fold_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "bat_strip_v02",
+			"source_region": [
+				1430,
+				200,
+				455,
+				365
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				36,
+				15,
+				396,
+				350
+			]
+		},
+		{
+			"anchor": [
+				8,
+				16
+			],
+			"asset_id": "terrain/mine/top",
+			"body_size": [
+				16,
+				16
+			],
+			"canvas": [
+				16,
+				16
+			],
+			"facing": "right",
+			"path": "res://assets/art/terrain/mine/top_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "terrain_strip_v01",
+			"source_region": [
+				0,
+				240,
+				543,
+				410
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				137,
+				87,
+				376,
+				307
+			]
+		},
+		{
+			"anchor": [
+				8,
+				16
+			],
+			"asset_id": "terrain/mine/fill",
+			"body_size": [
+				16,
+				16
+			],
+			"canvas": [
+				16,
+				16
+			],
+			"facing": "right",
+			"path": "res://assets/art/terrain/mine/fill_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "terrain_strip_v01",
+			"source_region": [
+				543,
+				240,
+				543,
+				410
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				102,
+				42,
+				373,
+				352
+			]
+		},
+		{
+			"anchor": [
+				8,
+				16
+			],
+			"asset_id": "terrain/mine/edge",
+			"body_size": [
+				16,
+				16
+			],
+			"canvas": [
+				16,
+				16
+			],
+			"facing": "right",
+			"path": "res://assets/art/terrain/mine/edge_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "terrain_strip_v01",
+			"source_region": [
+				1086,
+				240,
+				543,
+				410
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				67,
+				26,
+				375,
+				368
+			]
+		},
+		{
+			"anchor": [
+				8,
+				16
+			],
+			"asset_id": "terrain/mine/platform",
+			"body_size": [
+				16,
+				16
+			],
+			"canvas": [
+				16,
+				16
+			],
+			"facing": "right",
+			"path": "res://assets/art/terrain/mine/platform_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "terrain_strip_v01",
+			"source_region": [
+				1629,
+				240,
+				543,
+				410
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				32,
+				71,
+				375,
+				323
+			]
+		},
+		{
+			"anchor": [
+				16,
+				28
+			],
+			"asset_id": "props/lantern",
+			"body_size": [
+				12,
+				24
+			],
+			"canvas": [
+				32,
+				32
+			],
+			"facing": "right",
+			"path": "res://assets/art/props/lantern_v01.png",
+			"processing": "alpha >= 0.98; nearest resize; project palette; explicit anchor",
+			"source": "lantern_v01",
+			"source_region": [
+				300,
+				320,
+				410,
+				830
+			],
+			"status": "P0 runtime sample",
+			"trimmed_region": [
+				16,
+				12,
+				394,
+				805
+			]
+		}
+	],
+	"date": "2026-10-26",
+	"generator": "built-in image_gen",
+	"version": 1
+}

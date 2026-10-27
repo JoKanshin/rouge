@@ -1,0 +1,6 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>P0 第一刀视觉时序</title>
+<style>body{background:#111922;color:#d5dacf;font:16px system-ui;max-width:1280px;margin:32px auto;padding:16px}img{width:100%;image-rendering:pixelated}button,input{margin:12px}button{padding:8px 16px}small{color:#83aaa9}</style>
+<h1>P0 第一刀 · 逐帧检查</h1><p>从实际 Godot 画面采集。18 个物理帧：5 帧预备、4 帧有效、9 帧收招。敌人固定在预警姿态，供视觉对齐检查；本页不模拟伤害。</p>
+<img id="view" src="slash_00.png" alt="第一刀逐帧实景"><button id="play">播放</button><input id="frame" aria-label="物理帧" type="range" min="0" max="17" value="0"><label id="status"></label>
+<p><small>此处用 10 fps 慢放检查姿态；游戏实际战斗时钟为 60 Hz。</small></p><p><a href="p0_asset_board_3x.png">素材板</a> · <a href="p0_scene_2x.png">2× 实景</a> · <a href="p0_windup.png">敌人预警</a></p>
+<script>let n=0,timer=null;const img=document.querySelector('#view'),slider=document.querySelector('#frame'),status=document.querySelector('#status'),button=document.querySelector('#play');function show(){img.src=`slash_${String(n).padStart(2,'0')}.png`;slider.value=n;status.textContent=`帧 ${n} / 17 · ${n<5?'预备':n<9?'有效':'收招'}`;}slider.oninput=()=>{n=Number(slider.value);show()};button.onclick=()=>{if(timer){clearInterval(timer);timer=null;button.textContent='播放';}else{timer=setInterval(()=>{n=(n+1)%18;show()},100);button.textContent='暂停';}};show();</script></html>

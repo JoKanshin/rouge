@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "prompts": [
+    {
+      "id": "style",
+      "prompt": "Use case: stylized-concept. Create a pixel-art STYLE REFERENCE BOARD for original side-view 2D action game 'Beneath the Ash'. No text. A coherent low-resolution sprite style with large crisp pixel clusters, not painterly. Dark blue-gray abandoned mine backdrop, stone ledges and timber beams, tiny warm brass lanterns. Show spaced standalone silhouettes: small playable lantern keeper facing right with square old iron mask, gray-white head, teal-gray tunic, short copper-red scarf, belt lantern and straight sword; stocky pickaxe miner raising pick; slim crossbow miner; lavender-gray bat spread wings. Pixel style designed for a 28-pixel-tall player in a 640x400 game. Palette #111922 #17232D #29383E #3C4A4C #72817B #83AAA9 #D5DACF #FFF0C9 #DFBF85 #C49C63 #806B52 #C98668 #B77C73 #EFAB79 #A69AC2 #8BD2C5. Include a row of unlabelled palette squares. All strict side-view, original design, no isometric view, no text, no UI, no smooth illustration, restrained light."
+    },
+    {
+      "id": "hero",
+      "prompt": "Create ONE transparent pixel sprite strip for a side-view game. Reference image is STYLE and character identity only, not an edit target. Exactly FOUR equally spaced poses of the SAME small lantern keeper, left to right: idle; anticipating rightward sword swing with arms drawn back; contact pose leaning slightly right with right arm out; recovery pose. Each occupies its own equal-width cell on one horizontal row. All four feet at exactly same baseline. NO SWORDS and NO attack effects: engine renders weapon separately. Character square gray-white iron mask with two narrow dark eye slots, teal gray tunic, copper red short scarf, brown boots, small brass belt lantern. Strict right-facing SIDE VIEW, big crisp square pixels and only 10-12 colors, extremely simple readable 28-pixel-high effective design. Each body silhouette fits a 14x28 logical-pixel bounding box, target exported cell32x48. Render enlarged crisp nearest-neighbor pixel clusters, no antialias. Keep same proportions across poses. True transparent background, NO floor, NO shadow, NO text or cell borders, ample clear margins, no extra items."
+    },
+    {
+      "id": "miner",
+      "prompt": "Use case: stylized-concept. A single transparent two-frame sprite strip for original 2D SIDE-VIEW game. Reference is style guide only. TWO equal cells in one horizontal row, same stocky pickaxe miner facing RIGHT, same scale and ground baseline. LEFT cell idle holding pick diagonally forward low. RIGHT cell strong readable windup: both arms holding pickaxe HIGH ABOVE HEAD, torso bent backward ready to smash to right. Entire pickaxe fits cell. Character stocky brown work coat, old dark steel miner helmet, tiny amber helmet light, heavy boots, no face detail except dark eyes. Match reference large chunky crisp pixel shapes, gray-brown and muted ochre palette, no smooth shading. Ultimate body height28 logical pixels, full pickaxe windup silhouette44pixels tall; final cells64x64. Wide transparent separation between two poses. No floor, no shadows, no text, no scenery, genuine transparent alpha. Keep recognizable SAME body helmet tool identity in both."
+    },
+    {
+      "id": "bat",
+      "prompt": "Use case: stylized-concept. One transparent TWO-FRAME sprite strip, two equal cells in one horizontal row. Reference image is pixel style guide. SAME small lavender-gray mine bat in both cells, exact same body size centered at equal vertical height. LEFT: wings spread wide to both sides in readable broad jagged silhouette. RIGHT: wings folded upward close to body in tight narrow silhouette, preparing to dive. Tiny dark body, two pointed ears, small warm cream eyes. Original design, game side-on aerial enemy, no perspective terrain. Crisp chunky pixel clusters, limited 8 color palette lavender gray dark blue gray cream. Ultimate full wingspan44pixels, body12x18pixels, final cells64x48. Transparent safety margin, no shadows, no glow, NO TEXT, NO floor, NO borders. Do not change body or head between frames. Real transparent alpha."
+    },
+    {
+      "id": "bat_clean",
+      "prompt": "Edit target: attached bat sprite strip. Change ONLY remove ALL purple outer glow, haze and translucent shadows around both bats. Keep EXACT two bat designs poses and relative scale. Background must be 100% transparent right up to hard pixel silhouette; bat bodies opaque. Clean hard square pixels, no antialiased edge. Keep wide spread wings on left and folded wings on right; retain lavender color and warm eyes. No new content. No text."
+    },
+    {
+      "id": "terrain",
+      "prompt": "Use case: stylized-concept. A production sprite strip of FOUR mine terrain tiles, one evenly spaced horizontal row on true transparent background. Reference style only, NO characters. Each tile square, rendered as enlarged 16x16 pixel art with large hard square pixels. Tile1 flat stone floor top: thin flat light desaturated gray upper edge, dark blue gray stone below. Tile2 underground solid stone fill, low contrast broad stone blocks covering full square. Tile3 stone left end corner, flat top with left vertical rock edge. Tile4 thin one-way platform: gray stone top and timber brace beneath, total height8 logical pixels inside square cell. Uniform scale, strict orthographic SIDE VIEW, NO visible top face depth, no isometric view, no grass, no decorative plants, no shadows outside tiles. Palette #29383E #3C4A4C #72817B #17232D and timber #806B52. Simple readable repeated modular shapes. Four separated assets with generous transparent gaps, NO text no labels no outlines around cells."
+    },
+    {
+      "id": "lantern",
+      "prompt": "Use case stylized-concept. ONE small old brass mine lantern sprite for a side-view pixel platformer. True transparent background. Strict flat side view. Square brass cage with dark metal handle above, warm pale amber glass center and a tiny ivory hot center. Restrained lighting entirely inside lantern, absolutely NO outer glow or haze or floor shadow. Crisp big square pixel blocks, simple silhouette, 6 colors, no anti-alias. Target final16x24 logic pixels inside32x32 canvas, enlarged nearest-neighbor presentation. Palette dark blue gray #17232D, brass#C49C63, wood brown#806B52, amber#DFBF85, cream#FFF0C9. Single centered object, ample margins. No text no other items."
+    }
+  ]
+}

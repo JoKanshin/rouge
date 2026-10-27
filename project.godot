@@ -1,0 +1,22 @@
+config_version=5
+
+[application]
+config/name="灰烬之下 · 连续随机矿区原型"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=640
+window/size/viewport_height=400
+window/size/window_width_override=1280
+window/size/window_height_override=800
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
+
+[physics]
+common/physics_ticks_per_second=60
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.035, 0.047, 0.075, 1)

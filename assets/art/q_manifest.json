@@ -1,0 +1,480 @@
+{
+  "version": 2,
+  "generator": "tools/pixel_art/build.py (Pillow ramps + baked normals, no SVG intermediate)",
+  "player": {
+    "idle": {
+      "frames": [
+        "res://assets/art/q/player/idle_00.png",
+        "res://assets/art/q/player/idle_01.png",
+        "res://assets/art/q/player/idle_02.png",
+        "res://assets/art/q/player/idle_03.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/idle_00_n.png",
+        "res://assets/art/q/player/idle_01_n.png",
+        "res://assets/art/q/player/idle_02_n.png",
+        "res://assets/art/q/player/idle_03_n.png"
+      ],
+      "loop": true,
+      "fps": 6,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "run": {
+      "frames": [
+        "res://assets/art/q/player/run_00.png",
+        "res://assets/art/q/player/run_01.png",
+        "res://assets/art/q/player/run_02.png",
+        "res://assets/art/q/player/run_03.png",
+        "res://assets/art/q/player/run_04.png",
+        "res://assets/art/q/player/run_05.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/run_00_n.png",
+        "res://assets/art/q/player/run_01_n.png",
+        "res://assets/art/q/player/run_02_n.png",
+        "res://assets/art/q/player/run_03_n.png",
+        "res://assets/art/q/player/run_04_n.png",
+        "res://assets/art/q/player/run_05_n.png"
+      ],
+      "loop": true,
+      "fps": 12,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "jump": {
+      "frames": [
+        "res://assets/art/q/player/jump_00.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/jump_00_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "fall": {
+      "frames": [
+        "res://assets/art/q/player/fall_00.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/fall_00_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "land": {
+      "frames": [
+        "res://assets/art/q/player/land_00.png",
+        "res://assets/art/q/player/land_01.png",
+        "res://assets/art/q/player/land_02.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/land_00_n.png",
+        "res://assets/art/q/player/land_01_n.png",
+        "res://assets/art/q/player/land_02_n.png"
+      ],
+      "loop": false,
+      "fps": 14,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "crouch": {
+      "frames": [
+        "res://assets/art/q/player/crouch_00.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/crouch_00_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "dash": {
+      "frames": [
+        "res://assets/art/q/player/dash_00.png",
+        "res://assets/art/q/player/dash_01.png",
+        "res://assets/art/q/player/dash_02.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/dash_00_n.png",
+        "res://assets/art/q/player/dash_01_n.png",
+        "res://assets/art/q/player/dash_02_n.png"
+      ],
+      "loop": false,
+      "fps": 16,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "hurt": {
+      "frames": [
+        "res://assets/art/q/player/hurt_00.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/hurt_00_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "death": {
+      "frames": [
+        "res://assets/art/q/player/death_00.png",
+        "res://assets/art/q/player/death_01.png",
+        "res://assets/art/q/player/death_02.png",
+        "res://assets/art/q/player/death_03.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/death_00_n.png",
+        "res://assets/art/q/player/death_01_n.png",
+        "res://assets/art/q/player/death_02_n.png",
+        "res://assets/art/q/player/death_03_n.png"
+      ],
+      "loop": false,
+      "fps": 8,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "pulse": {
+      "frames": [
+        "res://assets/art/q/player/pulse_00.png",
+        "res://assets/art/q/player/pulse_01.png",
+        "res://assets/art/q/player/pulse_02.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/pulse_00_n.png",
+        "res://assets/art/q/player/pulse_01_n.png",
+        "res://assets/art/q/player/pulse_02_n.png"
+      ],
+      "loop": false,
+      "fps": 10,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "potion": {
+      "frames": [
+        "res://assets/art/q/player/potion_00.png",
+        "res://assets/art/q/player/potion_01.png",
+        "res://assets/art/q/player/potion_02.png",
+        "res://assets/art/q/player/potion_03.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/potion_00_n.png",
+        "res://assets/art/q/player/potion_01_n.png",
+        "res://assets/art/q/player/potion_02_n.png",
+        "res://assets/art/q/player/potion_03_n.png"
+      ],
+      "loop": false,
+      "fps": 8,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    },
+    "attack_light1": {
+      "frames": [
+        "res://assets/art/q/player/attack_light1_startup.png",
+        "res://assets/art/q/player/attack_light1_active.png",
+        "res://assets/art/q/player/attack_light1_recovery.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/attack_light1_startup_n.png",
+        "res://assets/art/q/player/attack_light1_active_n.png",
+        "res://assets/art/q/player/attack_light1_recovery_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ],
+      "phase_frames": {
+        "startup": "res://assets/art/q/player/attack_light1_startup.png",
+        "active": "res://assets/art/q/player/attack_light1_active.png",
+        "recovery": "res://assets/art/q/player/attack_light1_recovery.png"
+      },
+      "phase_normals": {
+        "startup": "res://assets/art/q/player/attack_light1_startup_n.png",
+        "active": "res://assets/art/q/player/attack_light1_active_n.png",
+        "recovery": "res://assets/art/q/player/attack_light1_recovery_n.png"
+      }
+    },
+    "attack_light2": {
+      "frames": [
+        "res://assets/art/q/player/attack_light2_startup.png",
+        "res://assets/art/q/player/attack_light2_active.png",
+        "res://assets/art/q/player/attack_light2_recovery.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/attack_light2_startup_n.png",
+        "res://assets/art/q/player/attack_light2_active_n.png",
+        "res://assets/art/q/player/attack_light2_recovery_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ],
+      "phase_frames": {
+        "startup": "res://assets/art/q/player/attack_light2_startup.png",
+        "active": "res://assets/art/q/player/attack_light2_active.png",
+        "recovery": "res://assets/art/q/player/attack_light2_recovery.png"
+      },
+      "phase_normals": {
+        "startup": "res://assets/art/q/player/attack_light2_startup_n.png",
+        "active": "res://assets/art/q/player/attack_light2_active_n.png",
+        "recovery": "res://assets/art/q/player/attack_light2_recovery_n.png"
+      }
+    },
+    "attack_light3": {
+      "frames": [
+        "res://assets/art/q/player/attack_light3_startup.png",
+        "res://assets/art/q/player/attack_light3_active.png",
+        "res://assets/art/q/player/attack_light3_recovery.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/attack_light3_startup_n.png",
+        "res://assets/art/q/player/attack_light3_active_n.png",
+        "res://assets/art/q/player/attack_light3_recovery_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ],
+      "phase_frames": {
+        "startup": "res://assets/art/q/player/attack_light3_startup.png",
+        "active": "res://assets/art/q/player/attack_light3_active.png",
+        "recovery": "res://assets/art/q/player/attack_light3_recovery.png"
+      },
+      "phase_normals": {
+        "startup": "res://assets/art/q/player/attack_light3_startup_n.png",
+        "active": "res://assets/art/q/player/attack_light3_active_n.png",
+        "recovery": "res://assets/art/q/player/attack_light3_recovery_n.png"
+      }
+    },
+    "attack_up": {
+      "frames": [
+        "res://assets/art/q/player/attack_up_startup.png",
+        "res://assets/art/q/player/attack_up_active.png",
+        "res://assets/art/q/player/attack_up_recovery.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/attack_up_startup_n.png",
+        "res://assets/art/q/player/attack_up_active_n.png",
+        "res://assets/art/q/player/attack_up_recovery_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ],
+      "phase_frames": {
+        "startup": "res://assets/art/q/player/attack_up_startup.png",
+        "active": "res://assets/art/q/player/attack_up_active.png",
+        "recovery": "res://assets/art/q/player/attack_up_recovery.png"
+      },
+      "phase_normals": {
+        "startup": "res://assets/art/q/player/attack_up_startup_n.png",
+        "active": "res://assets/art/q/player/attack_up_active_n.png",
+        "recovery": "res://assets/art/q/player/attack_up_recovery_n.png"
+      }
+    },
+    "attack_down": {
+      "frames": [
+        "res://assets/art/q/player/attack_down_startup.png",
+        "res://assets/art/q/player/attack_down_active.png",
+        "res://assets/art/q/player/attack_down_recovery.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/attack_down_startup_n.png",
+        "res://assets/art/q/player/attack_down_active_n.png",
+        "res://assets/art/q/player/attack_down_recovery_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ],
+      "phase_frames": {
+        "startup": "res://assets/art/q/player/attack_down_startup.png",
+        "active": "res://assets/art/q/player/attack_down_active.png",
+        "recovery": "res://assets/art/q/player/attack_down_recovery.png"
+      },
+      "phase_normals": {
+        "startup": "res://assets/art/q/player/attack_down_startup_n.png",
+        "active": "res://assets/art/q/player/attack_down_active_n.png",
+        "recovery": "res://assets/art/q/player/attack_down_recovery_n.png"
+      }
+    },
+    "attack_heavy": {
+      "frames": [
+        "res://assets/art/q/player/attack_heavy_startup.png",
+        "res://assets/art/q/player/attack_heavy_active.png",
+        "res://assets/art/q/player/attack_heavy_recovery.png"
+      ],
+      "normals": [
+        "res://assets/art/q/player/attack_heavy_startup_n.png",
+        "res://assets/art/q/player/attack_heavy_active_n.png",
+        "res://assets/art/q/player/attack_heavy_recovery_n.png"
+      ],
+      "loop": false,
+      "fps": 1,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ],
+      "phase_frames": {
+        "startup": "res://assets/art/q/player/attack_heavy_startup.png",
+        "active": "res://assets/art/q/player/attack_heavy_active.png",
+        "recovery": "res://assets/art/q/player/attack_heavy_recovery.png"
+      },
+      "phase_normals": {
+        "startup": "res://assets/art/q/player/attack_heavy_startup_n.png",
+        "active": "res://assets/art/q/player/attack_heavy_active_n.png",
+        "recovery": "res://assets/art/q/player/attack_heavy_recovery_n.png"
+      }
+    }
+  },
+  "terrain": {
+    "size": [
+      16,
+      16
+    ],
+    "paths": {
+      "top": "res://assets/art/q/terrain/top.png",
+      "fill": "res://assets/art/q/terrain/fill.png",
+      "edge": "res://assets/art/q/terrain/edge.png",
+      "platform": "res://assets/art/q/terrain/platform.png"
+    },
+    "normals": {
+      "top": "res://assets/art/q/terrain/top_n.png",
+      "fill": "res://assets/art/q/terrain/fill_n.png",
+      "edge": "res://assets/art/q/terrain/edge_n.png",
+      "platform": "res://assets/art/q/terrain/platform_n.png"
+    }
+  },
+  "props": {
+    "lantern": {
+      "frames": [
+        "res://assets/art/q/props/lantern_00.png",
+        "res://assets/art/q/props/lantern_01.png",
+        "res://assets/art/q/props/lantern_02.png",
+        "res://assets/art/q/props/lantern_03.png"
+      ],
+      "normals": [
+        "res://assets/art/q/props/lantern_00_n.png",
+        "res://assets/art/q/props/lantern_01_n.png",
+        "res://assets/art/q/props/lantern_02_n.png",
+        "res://assets/art/q/props/lantern_03_n.png"
+      ],
+      "loop": true,
+      "fps": 6,
+      "canvas": [
+        48,
+        56
+      ],
+      "anchor": [
+        24,
+        50
+      ]
+    }
+  }
+}

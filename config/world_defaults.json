@@ -1,0 +1,18 @@
+{
+  "generator_version": 1,
+  "seed": 27102026,
+  "width_segments": 40,
+  "depth_layers": 5,
+  "segment_tiles": 8,
+  "layer_tiles": 20,
+  "min_tunnel_height": 6,
+  "max_tunnel_height": 12,
+  "floor_variation_tiles": 2,
+  "shafts_per_layer": 3,
+  "shaft_width_tiles": 8,
+  "climb_step_pixels": 40,
+  "enemy_probability": 0.38,
+  "treasure_count": 10,
+  "camp_spacing_layers": 1,
+  "activation_radius": 760
+}
